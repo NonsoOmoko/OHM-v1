@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Orderbook Health Dashboard</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;background:#f7f7fb;color:#111;padding:20px}
+    table{border-collapse:collapse;width:100%}
+    th,td{padding:8px;border:1px solid #ddd;text-align:left}
+    th{background:#222;color:#fff}
+  </style>
+</head>
+<body>
+  <h1>Orderbook Health Dashboard</h1>
+  <div id="last">Loading…</div>
+  <table id="tbl">
+    <thead><tr><th>pair</th><th>metric</th><th>value</th></tr></thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    async function loadData(){
+      try{
+        const r = await fetch('/data/health_state.json', {cache: "no-store"});
+        if(!r.ok) { document.getElementById('last').textContent = 'No data yet'; return; }
+        const state = await r.json();
+        document.getElementById('last').textContent = 'Last updated: ' + (state.last_updated || new Date().toISOString());
+        const tbody = document.querySelector('#tbl tbody');
+        tbody.innerHTML = '';
+        if(Array.isArray(state.pairs)){
+          state.pairs.forEach(p=>{
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td>${p.pair ?? p[0] ?? ''}</td><td>${p.metric ?? ''}</td><td>${p.value ?? ''}</td>`;
+            tbody.appendChild(tr);
+          });
+        } else {
+          // fallback: display keys
+          Object.entries(state).forEach(([k,v])=>{
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td>${k}</td><td></td><td>${JSON.stringify(v)}</td>`;
+            tbody.appendChild(tr);
+          });
+        }
+      }catch(e){
+        document.getElementById('last').textContent = 'Error loading data';
+        console.error(e);
+      }
+    }
+    loadData();
+    setInterval(loadData, 60_000); // refresh every minute
+  </script>
+</body>
+</html>
