@@ -1,45 +1,45 @@
 timestamp,symbol,monitor_only,status,issues,strikes,current_spread,target_spread,percent_diff,ask_layers,bid_layers,dws,dws_poor,depth_1.25x,depth_1.5x,imbalance_ratio,heavier_side,stale_ob_count,_actionable,_all_issues
-2026-07-14 19:34:53,AAVE_USDT,False,Checked,,0,0.3,0.3,0.0,22,22,0.1871,False,$8.6K,$8.6K,1.11,asks,0,[],[]
-2026-07-14 19:34:53,AxCNH_USDT,False,Checked,A4:MEDIUM,0,3.0555,3.0,1.85,21,21,2.0931,True,$291,$322,1.31,asks,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $291 (min $5.0K)')]"
-2026-07-14 19:34:58,ADA_USDT,False,Checked,,0,0.404,0.26,55.38,22,22,0.3557,False,$14.1K,$20.5K,1.25,bids,0,[],[]
-2026-07-14 19:34:53,ALGO_USDT,False,Checked,,0,2.0194,2.0,0.97,22,22,1.3642,True,$33.4K,$35.6K,2.23,asks,0,[],[]
-2026-07-14 19:34:58,BCH_USDT,False,Checked,,0,0.404,0.26,55.38,22,22,0.3589,False,$7.7K,$9.8K,1.96,asks,0,[],[]
-2026-07-14 19:35:09,BNB_USDT,False,Checked,,0,0.301,0.3,0.33,22,22,0.1888,False,$44.5K,$44.5K,1.33,asks,0,[],[]
-2026-07-14 19:35:10,BONK_USDT,False,Checked,A4:MEDIUM,0,2.0156,2.0,0.78,22,22,1.361,True,$3.6K,$4.1K,4.21,asks,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $3.6K (min $5.0K)')]"
-2026-07-14 19:35:10,BTC_USDT,False,Checked,A2:HIGH,0,0.506,0.2,153.0,22,22,0.2837,False,$1.31M,$1.31M,1.02,asks,0,[],"[('A2', 'HIGH', 'Spread 0.506% vs target 0.2% (diff +153.0%) | DWS: 0.2837 (ok — strike skipped)')]"
-2026-07-14 19:35:15,CAKE_USDT,False,Checked,,0,0.311,0.3,3.67,22,22,0.3265,False,$31.8K,$40.4K,2.14,asks,0,[],[]
-2026-07-14 19:35:15,CFX_USDT,False,Checked,,0,2.0371,2.0,1.86,22,22,1.4653,True,$15.3K,$16.7K,1.1,asks,0,[],[]
-2026-07-14 19:35:26,DASH_USDT,False,Checked,,0,2.0142,2.0,0.71,22,22,1.471,True,$29.9K,$34.0K,1.61,asks,0,[],[]
-2026-07-14 19:35:26,DOT_USDT,False,Checked,,0,0.282,0.26,8.46,22,22,0.197,False,$6.2K,$8.9K,1.7,asks,0,[],[]
-2026-07-14 19:35:27,DOGE_USDT,False,Checked,,0,0.296,0.26,13.85,22,22,0.2424,False,$15.0K,$18.6K,2.66,bids,0,[],[]
-2026-07-14 19:35:32,ETH_USDT,False,Checked,,0,0.25,0.25,0.0,22,22,0.1784,False,$78.7K,$109.1K,2.3,bids,0,[],[]
-2026-07-14 19:35:32,FARTCOIN_USDT,False,Checked,,0,2.0128,2.0,0.64,22,22,1.4587,True,$22.4K,$23.6K,1.31,asks,0,[],[]
-2026-07-14 19:35:43,FLOKI_USDT,False,Checked,,0,0.269,0.5,-46.2,22,21,0.3245,False,$11.8K,$13.1K,1.94,asks,0,[],[]
-2026-07-14 19:35:44,HYPE_USDT,False,Checked,A2:HIGH|A4:MEDIUM,0,0.366,2.0,-81.7,22,22,0.4588,False,$1.2K,$1.7K,4.19,asks,0,[],"[('A2', 'HIGH', 'Spread 0.366% vs target 2% (diff -81.7%) | DWS: 0.4588 (ok — strike skipped)'), ('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $1.2K (min $5.0K)')]"
-2026-07-14 19:35:43,LINK_USDT,False,Checked,,0,0.29,0.26,11.54,22,22,0.2075,False,$37.0K,$46.0K,1.04,asks,0,[],[]
-2026-07-14 19:35:50,LSK_USDT,False,Warning,A2:HIGH,1,4.939,1.5,229.27,10,12,3.0315,True,$7.5K,$7.5K,1.7,asks,0,"[('A2', 'HIGH', 'Spread 4.939% vs target 1.5% (diff +229.3%) | DWS: 3.0315 (poor — strike counted)')]","[('A2', 'HIGH', 'Spread 4.939% vs target 1.5% (diff +229.3%) | DWS: 3.0315 (poor — strike counted)')]"
-2026-07-14 19:35:49,LTC_USDT,False,Checked,,0,0.3,0.3,0.0,22,22,0.1945,False,$52.1K,$52.1K,1.36,asks,0,[],[]
-2026-07-14 19:35:58,PEPE_USDT,False,Checked,,0,0.356,0.5,-28.8,22,22,0.3568,False,$26.6K,$35.5K,1.15,asks,0,[],[]
-2026-07-14 19:36:02,POL_USDT,False,Checked,,0,0.306,0.5,-38.8,22,22,0.2033,False,$63.5K,$66.2K,1.12,asks,0,[],[]
-2026-07-14 19:36:02,RENDER_USDT,False,Checked,,0,2.01,2.0,0.5,22,22,1.4262,True,$7.1K,$8.0K,2.03,asks,0,[],[]
-2026-07-14 19:36:16,SHIB_USDT,False,Checked,,0,0.406,0.4,1.5,22,22,0.2662,False,$34.4K,$34.4K,1.05,bids,0,[],[]
-2026-07-14 19:36:16,SLP_USDT,False,Checked,,0,2.0255,2.0,1.28,22,22,1.4764,True,$9.3K,$10.2K,1.42,asks,0,[],[]
-2026-07-14 19:36:23,SOL_USDT,False,Checked,,0,0.137,0.25,-45.2,22,22,0.333,False,$6.5K,$10.2K,41.27,bids,0,[],[]
-2026-07-14 19:36:30,SUI_USDT,False,Checked,A4:MEDIUM,0,2.0156,2.0,0.78,22,22,1.4557,True,$3.7K,$4.1K,2.59,asks,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $3.7K (min $5.0K)')]"
-2026-07-14 19:36:38,TON_USDT,False,Checked,A4:MEDIUM,0,0.209,0.3,-30.33,22,22,0.2796,False,$4.8K,$6.7K,1.11,bids,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $4.8K (min $5.0K)')]"
-2026-07-14 19:36:45,TRX_USDT,False,Checked,,0,0.301,0.3,0.33,22,22,0.2,False,$629.7K,$629.7K,1.04,asks,0,[],[]
-2026-07-14 19:36:52,USDC_USDT,False,Checked,,0,0.0399,0.03,33.0,22,22,0.0649,False,$1.20M,$1.55M,1.13,asks,0,[],[]
-2026-07-14 19:37:04,WIF_USDT,False,Checked,A4:MEDIUM,0,2.0928,2.0,4.64,22,22,1.5306,True,$4.0K,$4.6K,1.06,asks,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $4.0K (min $5.0K)')]"
-2026-07-14 19:37:04,XLM_USDT,False,Checked,,0,0.302,0.3,0.67,22,22,0.188,False,$71.8K,$71.8K,1.58,bids,0,[],[]
-2026-07-14 19:37:05,XRP_USDT,False,Checked,,0,0.307,0.3,2.33,22,22,0.199,False,$50.7K,$50.7K,1.08,bids,0,[],[]
-2026-07-14 19:37:15,XYO_USDT,False,Checked,A4:MEDIUM,0,0.3,1.0,-70.0,22,22,0.3155,False,$1.4K,$1.9K,1.02,asks,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $1.4K (min $5.0K)')]"
-2026-07-14 19:37:17,BTC_NGN,False,Checked,,0,0.422,0.7,-39.71,22,22,0.2355,False,$1897.41M,$1897.41M,1.07,bids,0,[],[]
-2026-07-14 19:37:18,USDT_NGN,False,Checked,A2:HIGH,0,0.0824,0.95,-91.33,22,22,0.1425,False,$422.25M,$433.41M,2.18,bids,0,[],"[('A2', 'HIGH', 'Spread 0.0824% vs target 0.95% (diff -91.3%) | DWS: 0.1425 (ok — strike skipped)')]"
-2026-07-14 19:37:28,ETH_NGN,False,Checked,,0,0.45,0.75,-40.0,22,22,0.2625,False,$1760.48M,$1760.48M,2.28,asks,0,[],[]
-2026-07-14 19:37:31,TRX_NGN,False,Checked,,0,0.5,0.75,-33.33,22,22,0.285,False,$915.33M,$915.33M,1.08,asks,0,[],[]
-2026-07-14 19:37:32,XRP_NGN,False,Checked,,0,0.229,0.5,-54.2,22,22,0.2556,False,$52.24M,$52.24M,439.85,bids,0,[],[]
-2026-07-14 19:37:33,DASH_NGN,False,Checked,A2:HIGH,0,0.077,0.5,-84.6,22,22,0.0719,False,$9.86M,$14.35M,2.76,bids,0,[],"[('A2', 'HIGH', 'Spread 0.077% vs target 0.5% (diff -84.6%) | DWS: 0.0719 (ok — strike skipped)')]"
-2026-07-14 19:37:43,LTC_NGN,False,Checked,,0,0.529,0.5,5.8,22,22,0.2948,False,$180.59M,$180.59M,1.23,bids,0,[],[]
-2026-07-14 19:37:45,SOL_NGN,False,Checked,,0,0.675,0.8,-15.62,22,22,0.3552,False,$117.05M,$117.05M,1.02,bids,0,[],[]
-2026-07-14 19:37:45,USDC_NGN,False,Checked,,0,0.389,1.2,-67.58,22,22,0.2259,False,$5971.96M,$5971.96M,1.28,asks,0,[],[]
-2026-07-14 19:37:45,USDT_GHS,False,Checked,,0,1.081,1.3,-16.85,22,21,0.9609,True,$3.86M,$5.16M,1.16,bids,0,[],[]
+2026-07-14 21:34:46,AAVE_USDT,False,Checked,,0,0.3,0.3,0.0,22,22,0.2046,False,$11.7K,$11.7K,1.55,bids,0,[],[]
+2026-07-14 21:34:46,AxCNH_USDT,False,Checked,A4:MEDIUM,0,3.0576,3.0,1.92,17,19,2.0973,True,$162,$177,1.35,bids,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $162 (min $5.0K)')]"
+2026-07-14 21:34:46,ADA_USDT,False,Warning,A2:HIGH,1,0.967,0.26,271.92,13,20,0.6352,True,$52.3K,$52.3K,1.54,bids,0,"[('A2', 'HIGH', 'Spread 0.967% vs target 0.26% (diff +271.9%) | DWS: 0.6352 (poor — strike counted)')]","[('A2', 'HIGH', 'Spread 0.967% vs target 0.26% (diff +271.9%) | DWS: 0.6352 (poor — strike counted)')]"
+2026-07-14 21:34:46,ALGO_USDT,False,Checked,,0,2.0218,2.0,1.09,22,22,1.4273,True,$46.1K,$49.2K,1.91,asks,0,[],[]
+2026-07-14 21:34:46,BCH_USDT,False,Checked,,0,0.406,0.26,56.15,22,22,0.336,False,$6.4K,$8.2K,1.05,bids,0,[],[]
+2026-07-14 21:35:05,BNB_USDT,False,Checked,,0,0.301,0.3,0.33,22,22,0.1978,False,$63.5K,$63.5K,1.31,bids,0,[],[]
+2026-07-14 21:35:06,BONK_USDT,False,Checked,A4:MEDIUM,0,2.0135,2.0,0.68,22,22,1.5118,True,$4.8K,$5.3K,1.58,asks,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $4.8K (min $5.0K)')]"
+2026-07-14 21:35:06,BTC_USDT,False,Checked,,0,0.2,0.2,0.0,22,22,0.1471,False,$864.5K,$1.09M,1.05,asks,0,[],[]
+2026-07-14 21:35:05,CAKE_USDT,False,Checked,,0,0.311,0.3,3.67,22,22,0.3366,False,$21.2K,$28.1K,1.74,bids,0,[],[]
+2026-07-14 21:35:05,CFX_USDT,False,Checked,,0,2.688,2.0,34.4,22,20,1.7474,True,$16.2K,$18.6K,1.87,asks,0,[],[]
+2026-07-14 21:35:24,DASH_USDT,False,Checked,,0,2.0136,2.0,0.68,22,22,1.469,True,$14.4K,$16.8K,1.47,asks,0,[],[]
+2026-07-14 21:35:25,DOT_USDT,False,Checked,A4:MEDIUM,0,0.307,0.26,18.08,22,16,0.27,False,$3.2K,$6.4K,1.24,asks,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $3.2K (min $5.0K)')]"
+2026-07-14 21:35:25,DOGE_USDT,False,Checked,,0,0.296,0.26,13.85,22,22,0.2321,False,$10.0K,$12.6K,1.09,bids,0,[],[]
+2026-07-14 21:35:25,ETH_USDT,False,Checked,,0,0.25,0.25,0.0,22,22,0.1782,False,$115.4K,$152.3K,1.08,asks,0,[],[]
+2026-07-14 21:35:25,FARTCOIN_USDT,False,Checked,,0,2.0128,2.0,0.64,22,22,1.4183,True,$20.9K,$22.4K,1.65,asks,0,[],[]
+2026-07-14 21:35:44,FLOKI_USDT,False,Checked,,0,0.269,0.5,-46.2,22,21,0.3431,False,$8.9K,$10.2K,1.64,asks,0,[],[]
+2026-07-14 21:35:44,HYPE_USDT,False,Warning,A2:HIGH|A4:MEDIUM,1,0.4,2.0,-80.0,22,22,0.897,True,$1.1K,$1.5K,1.02,bids,0,"[('A2', 'HIGH', 'Spread 0.4% vs target 2% (diff -80.0%) | DWS: 0.8970 (poor — strike counted)')]","[('A2', 'HIGH', 'Spread 0.4% vs target 2% (diff -80.0%) | DWS: 0.8970 (poor — strike counted)'), ('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $1.1K (min $5.0K)')]"
+2026-07-14 21:35:45,LINK_USDT,False,Checked,,0,0.313,0.26,20.38,22,22,0.2462,False,$17.8K,$23.1K,3.03,bids,0,[],[]
+2026-07-14 21:35:44,LSK_USDT,False,Checked,A4:MEDIUM,0,1.601,1.5,6.73,21,22,1.3866,True,$4.3K,$5.8K,1.46,asks,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $4.3K (min $5.0K)')]"
+2026-07-14 21:35:44,LTC_USDT,False,Checked,,0,0.405,0.3,35.0,22,22,0.2554,False,$62.0K,$64.9K,1.01,bids,0,[],[]
+2026-07-14 21:36:02,PEPE_USDT,False,Checked,,0,0.354,0.5,-29.2,22,22,0.3376,False,$11.0K,$14.5K,1.27,asks,0,[],[]
+2026-07-14 21:36:01,POL_USDT,False,Checked,,0,0.307,0.5,-38.6,22,22,0.2097,False,$67.2K,$76.4K,1.44,bids,0,[],[]
+2026-07-14 21:36:02,RENDER_USDT,False,Checked,A4:MEDIUM,0,1.643,2.0,-17.85,22,22,1.4139,True,$4.0K,$5.1K,1.24,asks,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $4.0K (min $5.0K)')]"
+2026-07-14 21:36:12,SHIB_USDT,False,Checked,,0,0.304,0.4,-24.0,22,22,0.198,False,$26.4K,$26.4K,2.06,asks,0,[],[]
+2026-07-14 21:36:12,SLP_USDT,False,Checked,A4:MEDIUM,0,2.0232,2.0,1.16,22,22,1.4397,True,$4.2K,$4.4K,2.06,asks,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $4.2K (min $5.0K)')]"
+2026-07-14 21:36:26,SOL_USDT,False,Checked,,0,0.25,0.25,0.0,22,22,0.3552,False,$18.6K,$28.8K,4.97,asks,0,[],[]
+2026-07-14 21:36:33,SUI_USDT,False,Checked,A4:MEDIUM,0,3.285,2.0,64.25,15,22,2.0264,True,$3.1K,$3.1K,1.02,bids,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $3.1K (min $5.0K)')]"
+2026-07-14 21:36:40,TON_USDT,False,Checked,,0,0.21,0.3,-30.0,22,22,0.2742,False,$5.3K,$6.8K,1.08,bids,0,[],[]
+2026-07-14 21:36:49,TRX_USDT,False,Checked,,0,0.301,0.3,0.33,22,22,0.1973,False,$416.9K,$416.9K,1.4,bids,0,[],[]
+2026-07-14 21:36:57,USDC_USDT,False,Checked,,0,0.0399,0.03,33.0,22,22,0.0661,False,$564.8K,$688.8K,1.23,asks,0,[],[]
+2026-07-14 21:37:10,WIF_USDT,False,Checked,,0,2.0361,2.0,1.8,22,22,1.4794,True,$6.7K,$7.2K,1.96,asks,0,[],[]
+2026-07-14 21:37:10,XLM_USDT,False,Checked,,0,0.303,0.3,1.0,22,22,0.1985,False,$114.4K,$114.4K,1.0,asks,0,[],[]
+2026-07-14 21:37:15,XRP_USDT,False,Checked,,0,0.305,0.3,1.67,22,22,0.2037,False,$97.3K,$97.3K,1.08,bids,0,[],[]
+2026-07-14 21:37:22,XYO_USDT,False,Checked,A4:MEDIUM,0,0.306,1.0,-69.4,22,22,0.2899,False,$1.3K,$1.6K,1.04,bids,0,[],"[('A4', 'MEDIUM', 'Thin mid-market — depth within spread: $1.3K (min $5.0K)')]"
+2026-07-14 21:37:25,BTC_NGN,False,Checked,,0,0.45,0.7,-35.71,22,22,0.2522,False,$2287.74M,$2287.74M,1.38,bids,0,[],[]
+2026-07-14 21:37:29,USDT_NGN,False,Checked,A2:HIGH,0,0.132,0.95,-86.11,22,22,0.1076,False,$1184.31M,$1401.51M,1.5,asks,0,[],"[('A2', 'HIGH', 'Spread 0.132% vs target 0.95% (diff -86.1%) | DWS: 0.1076 (ok — strike skipped)')]"
+2026-07-14 21:37:38,ETH_NGN,False,Checked,,0,0.353,0.75,-52.93,22,22,0.2674,False,$2035.99M,$2135.69M,1.11,asks,0,[],[]
+2026-07-14 21:37:39,TRX_NGN,False,Checked,,0,0.5,0.75,-33.33,22,22,0.2825,False,$471.45M,$471.45M,1.37,bids,0,[],[]
+2026-07-14 21:37:40,XRP_NGN,False,Checked,,0,0.551,0.5,10.2,22,22,0.3032,False,$95.19M,$95.19M,1.05,bids,0,[],[]
+2026-07-14 21:37:46,DASH_NGN,False,Checked,,0,0.552,0.5,10.4,22,22,0.313,False,$31.74M,$31.74M,1.45,asks,0,[],[]
+2026-07-14 21:37:55,LTC_NGN,False,Checked,,0,0.551,0.5,10.2,22,22,0.299,False,$231.22M,$231.22M,1.4,bids,0,[],[]
+2026-07-14 21:37:56,SOL_NGN,False,Checked,,0,0.701,0.8,-12.38,22,22,0.366,False,$177.87M,$177.87M,1.33,bids,0,[],[]
+2026-07-14 21:37:57,USDC_NGN,False,Checked,,0,0.384,1.2,-68.0,22,22,0.2207,False,$5065.57M,$5065.57M,1.2,asks,0,[],[]
+2026-07-14 21:37:58,USDT_GHS,False,Checked,,0,1.162,1.3,-10.62,22,20,0.9707,True,$2.75M,$3.46M,1.06,bids,0,[],[]
